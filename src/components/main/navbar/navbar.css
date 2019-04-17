@@ -1,0 +1,8 @@
+.main-1 {
+  position: relative;
+}
+.navbar-menu {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(16, 153, 57, 0.884);
+}

@@ -1,0 +1,43 @@
+body {
+  height: 800px;
+  width: 100%;
+  /*background-image: url('./img/background.jpg');*/
+  background-repeat: no-repeat;
+}
+.containerr-main {
+  position: relative;
+}
+.container {
+  position: absolute;
+  right: 5%;
+  top: 0;
+  width: 40%;
+  height: 80px;
+  margin: 10px;
+}
+#esq {
+  right: 0;
+  text-align: center;
+}
+#cad {
+  left: 20px;
+}
+.container > a > h3 {
+  position: absolute;
+  margin: 0;
+  font-size: 17px;
+  left: 20%;
+  color: black;
+  margin-right: 15px;
+}
+.form-group {
+  margin-top: 23px;
+  padding-right: 1px;
+}
+.btn.btn-primary {
+  margin-top: 23px;
+  border-radius: 10px;
+}
+.form-control {
+  border-radius: 10px;
+}

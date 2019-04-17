@@ -1,0 +1,31 @@
+.container-create {
+  position: relative;
+  height: 500px;
+  width: 400px;
+  left: calc(50% - 15%);
+  border-radius: 20px;
+  margin: 20px;
+  background-color: rgba(40, 167, 40, 0.781);
+}
+#form-create {
+  position: relative;
+  height: 400px;
+}
+.container-create > .container-img {
+  left: calc(50% - 35%);
+}
+
+#form-create {
+  position: absolute;
+  top: 50px;
+}
+.form-group.create-group {
+  top: 80px;
+  left: 10%;
+  margin: 10px;
+}
+.btn-primary.btn-create {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 7%);
+}
